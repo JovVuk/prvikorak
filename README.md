@@ -1,0 +1,2 @@
+# prvikorak
+Kostur projekta
