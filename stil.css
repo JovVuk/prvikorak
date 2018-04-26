@@ -1,45 +1,52 @@
 body{
          /*border: 2px solid black;  */
-         height:1800px; 
+         height:1890px; 
          background-color:rgba(255, 99, 71, 0.2);
         }
         #omotac{
+             box-sizing:border-box;
             position:relative;
             /*border:1px solid red;*/
             width:1300px;
-            height:1800px;
+            height:1900px;
             margin:10px;
             } 
+        #main_element{
+            height:1500px;
+            /*border:2px solid green;*/
+            position:relative;
+        }    
         #d1, #d2,#d3,#d4,#d5{
             box-sizing:border-box;
+            width:500px;
             font-size: 16px;
             font-family: Cursive;
             background-color:lightgray;
         }
         #d1{
-            position:absolute;
-            margin-left:100px;
-            margin-top:10px;
+            position: relative;
+            left:100px;
+            top:10px;
         }
         #d2{
             position:absolute;
-            margin-left:700px;
-            margin-top:10px;
+            right:100px;
+            top:10px;
         }
         #d3{
             position:absolute;
-            margin-left:700px;
-            margin-top:470px;
+            right:100px;
+            top:510px;
         }
         #d4{
             position:absolute;
-            margin-left:100px;
-            margin-top:900px;
+            left:100px;
+            bottom: 10px;
         }
         #d5{
             position:absolute;
-            margin-left:700px;
-            margin-top:800px;
+            right:100px;
+            bottom:10px;
         }
         #glavni_naslov{
     		color:rgba(200,0,0,0.7);
@@ -57,7 +64,6 @@ body{
     	h2{
            /*border:1px solid blue;*/
     		color: darkorange;
-            font-family: Cursive;
     		text-align:center;
     	}
         p{
@@ -65,27 +71,25 @@ body{
         }
         
         div{
-            
-          box-sizing:border-box;
-          width:500px;  
-          /*border:1px dotted black;  */
-          margin-left:auto;
-          margin-right:auto;
-          text-align: justify;
+           /* border:1px dotted black;*/  
           font-size: 16px;
           font-family: Cursive;
         }
 
       
       footer{
+        color:white;
+        background-color:gray;
+
+        font-size:15px;
+        font-family:Tahoma;
+        font-weight:bold;
+        text-align:center;
         display:inline-block;
         width:1300px;
-        height:60px;
-        position:absolute;
-        margin-top:1400px;
-    		color:yellow;
-        background-color:gray;
-        font-size:15px;
-        font-family:Manuscript;
-        text-align:center;
+        height:90px;
+        position:relative;
+        top::10px;
+
+    		
     	 }
