@@ -1,0 +1,91 @@
+body{
+         /*border: 2px solid black;  */
+         height:1800px; 
+         background-color:rgba(255, 99, 71, 0.2);
+        }
+        #omotac{
+            position:relative;
+            /*border:1px solid red;*/
+            width:1300px;
+            height:1800px;
+            margin:10px;
+            } 
+        #d1, #d2,#d3,#d4,#d5{
+            box-sizing:border-box;
+            font-size: 16px;
+            font-family: Cursive;
+            background-color:lightgray;
+        }
+        #d1{
+            position:absolute;
+            margin-left:100px;
+            margin-top:10px;
+        }
+        #d2{
+            position:absolute;
+            margin-left:700px;
+            margin-top:10px;
+        }
+        #d3{
+            position:absolute;
+            margin-left:700px;
+            margin-top:470px;
+        }
+        #d4{
+            position:absolute;
+            margin-left:100px;
+            margin-top:900px;
+        }
+        #d5{
+            position:absolute;
+            margin-left:700px;
+            margin-top:800px;
+        }
+        #glavni_naslov{
+    		color:rgba(200,0,0,0.7);
+            background-color:lightblue;
+    		font-size:50px;
+    		text-align:center;
+    		font-family:Cursive;
+    	}
+        #cetkicazubpasta{
+            background-image: url("zubiccetkicapastamali.jpg");
+            height:120px;
+            
+        }
+
+    	h2{
+           /*border:1px solid blue;*/
+    		color: darkorange;
+            font-family: Cursive;
+    		text-align:center;
+    	}
+        p{
+            text-align:center;
+        }
+        
+        div{
+            
+          box-sizing:border-box;
+          width:500px;  
+          /*border:1px dotted black;  */
+          margin-left:auto;
+          margin-right:auto;
+          text-align: justify;
+          font-size: 16px;
+          font-family: Cursive;
+        }
+
+      
+      footer{
+        display:inline-block;
+        width:1300px;
+        height:60px;
+        position:absolute;
+        margin-top:1400px;
+    		color:yellow;
+        background-color:gray;
+        font-size:15px;
+        font-family:Manuscript;
+        text-align:center;
+    	 }
